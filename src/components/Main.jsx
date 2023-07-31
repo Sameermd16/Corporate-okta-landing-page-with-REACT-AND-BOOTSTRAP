@@ -1,10 +1,30 @@
-
+import { appTiles } from "../data/data"
 
 export default function Main() {
+
+        
     return (
         <>
         <main className='container bg-dark-subtle'>
             <div className="row gap-3 p-3">
+                {appTiles.map((object) => {
+                    return (
+                        <div style={object.divDimensions} className="col-6 shadow-lg bg-light d-flex flex-column justify-content-center align-items-center gap-2">
+                            <div className="row">
+                                <img src={object.img} style={object.style} />
+                            </div>
+                        </div>
+                    )
+                })}
+
+            </div>
+            
+        </main>
+        </>
+    )
+}
+
+            {/* <div className="row gap-3 p-3">
                 <a href="#" className="col-md-6 bg-light shadow-lg d-flex flex-column align-items-center justify-content-center gap-2" style={{width: "110px", height: "120px"}}>
                     <img src="slack.png" style={{width: "70%", height: ""}} />
                     <p>slack</p>
@@ -29,10 +49,11 @@ export default function Main() {
                 </div>   
                 <div className="col-6 bg-light shadow-lg d-flex flex-column justify-content-center align-items-center" style={{width: "110px", height: "120px"}}>
                     <img src="onedrive.png" style={{width: "100%"}} />
-                </div>   
-            </div>
-            
-        </main>
-        </>
-    )
-}
+                </div>  
+                <div className="col-6 shadow-lg bg-light d-flex flex-column align-items-center justify-content-center" style={{width: "110px", height: "120px"}}>
+                    <img src="outlook.png" style={{width: "100px"}} />
+                </div> 
+                <div className="col-6 shadow-lg bg-light d-flex flex-column justify-content-center align-items-center" >
+
+                </div>
+            </div> */}

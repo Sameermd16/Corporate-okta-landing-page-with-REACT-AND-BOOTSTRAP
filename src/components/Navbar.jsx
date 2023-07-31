@@ -1,4 +1,5 @@
-import { BsSearch } from "react-icons/bs"
+// import { BsSearch } from "react-icons/bs"
+import * as bsIcons from "react-icons/bs"
 
 export default function Navbar() {
     console.log("hello")
@@ -12,7 +13,7 @@ export default function Navbar() {
           <span className="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div className="input-group" mt-2>
-          <span className="input-group-text" id="search"><BsSearch /></span>
+          <span className="input-group-text" id="search"><bsIcons.BsSearch /></span>
           <input type="search" placeholder="Search your apps" className="form-control col-12" aria-describedby="search" />
         </div>
         <div className="collapse navbar-collapse" id="id">
