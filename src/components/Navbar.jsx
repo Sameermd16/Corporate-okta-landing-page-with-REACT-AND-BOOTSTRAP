@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react'
 import { Link } from "react-router-dom"
 import { FaBars } from "react-icons/fa"
@@ -122,4 +122,4 @@ export default function Navbar() {
     )
 }
 
->>>>>>> ff716cee5addb783ce644a39c40a1a703273507a
+

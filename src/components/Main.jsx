@@ -1,7 +1,7 @@
 import { appTiles } from "../data/data"
 
 export default function Main() {
-<<<<<<< HEAD
+
         
     return (
         <>
@@ -11,7 +11,7 @@ export default function Main() {
                     return (
                         <div className='app-div shadow'>
                             <div>
-=======
+
 
         
     return (
@@ -22,7 +22,7 @@ export default function Main() {
                     return (
                         <div style={object.divDimensions} className="col-6 shadow-lg bg-light d-flex flex-column justify-content-center align-items-center gap-2">
                             <div className="row">
->>>>>>> ff716cee5addb783ce644a39c40a1a703273507a
+
                                 <img src={object.img} style={object.style} />
                             </div>
                         </div>
@@ -31,11 +31,11 @@ export default function Main() {
 
             </div>
             
-<<<<<<< HEAD
+
         </div>
-=======
+
         </main>
->>>>>>> ff716cee5addb783ce644a39c40a1a703273507a
+ff716cee5addb783ce644a39c40a1a703273507a
         </>
     )
 }
