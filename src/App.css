@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  background-color: gray;
+  position: fixed;
+  left: -250px;
+  top: 0;
+  width: 200px;
+  transition: 800ms;
+}
+.menu.active {
+  left: 0;
+  transition: 300ms;
+}
+.menu > ul {
+  height: 100vh;
+  list-style-type: none;
+}
+.menu > ul > li {
+  padding: 15px;
+}
+.menu > ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+.menu > ul > li > a:hover {
+  color: rgba(255, 255, 255, 0.68);
+}
+.logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.hamburger {
+  width: 30px;
+  height: 30px;
+}
+.hamburgerDiv {
+  cursor: pointer;
+}
+nav {
+  padding: 10px;
+}
+.app-tiles-wrapper {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 110px);
+  grid-auto-rows: 120px;
+}
+
+.app-div {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 2px;
+}
+.close-icon:hover {
+  background-color: rgba(255, 255, 255, 0.231);
+}
