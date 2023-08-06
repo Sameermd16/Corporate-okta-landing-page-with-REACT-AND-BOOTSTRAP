@@ -5,13 +5,14 @@
   box-sizing: border-box;
 }
 .menu {
-  background-color: gray;
+  background: rgba(128, 128, 128, 0.95);
   position: fixed;
   left: -250px;
   top: 0;
-  width: 200px;
+  width: 250px;
   transition: 800ms;
 }
+
 .menu.active {
   left: 0;
   transition: 300ms;
@@ -52,10 +53,11 @@ nav {
   justify-content: center;
   grid-template-columns: repeat(auto-fill, 110px);
   grid-auto-rows: 120px;
+  background: rgba(128, 128, 128, 0.252);
 }
 
 .app-div {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.982);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,4 +66,14 @@ nav {
 }
 .close-icon:hover {
   background-color: rgba(255, 255, 255, 0.231);
+}
+.sort > li {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+  .logo{
+    display: none;
+  }
 }

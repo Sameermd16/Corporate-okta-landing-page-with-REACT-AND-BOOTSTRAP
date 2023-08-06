@@ -9,7 +9,8 @@ const appTiles = [
     img: "slack.png",
     style: {
         width: "80%",
-    }
+    },
+    url: 'https://www.slack.com'
 },
 {
     name: "figma",
@@ -20,7 +21,8 @@ const appTiles = [
     img: "figma.png",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.figma.com'
 },
 {
     name: "github",
@@ -31,7 +33,8 @@ const appTiles = [
     img: "github.webp",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.github.com'
 },
 {
     name: "outlook",
@@ -42,7 +45,8 @@ const appTiles = [
     img: "outlook.png",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.outlook.com'
 },
 {
     name: "servicenow",
@@ -53,7 +57,8 @@ const appTiles = [
     img: "servicenow.png",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.servicenow.com'
 },    
 {
     name: "workday",
@@ -64,7 +69,8 @@ const appTiles = [
     img: "workday.jpg",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.workday.com'
 },    
 {
     divDimensions: {
@@ -72,10 +78,11 @@ const appTiles = [
         height: "120px"
     },
     img: "onedrive.png",
-    name: "workday",
+    name: "onedrive",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.onedrive.com'
 },    
 {
     name: "jamfpro",
@@ -86,7 +93,8 @@ const appTiles = [
     img: "jamfpro.png",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.jamfpro.com'
 },    
 {
     name: "atlassian",
@@ -97,7 +105,8 @@ const appTiles = [
     img: "atlassian.png",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.atlassian.com'
 },    
 {
     name: "confluence",
@@ -108,7 +117,8 @@ const appTiles = [
     img: "confluence.png",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.confluence.com'
 },    
 {
     name: "concur",
@@ -119,7 +129,8 @@ const appTiles = [
     img: "concur.png",
     style: {
         width: "100%" 
-    }
+    },
+    url: 'https://www.concur.com'
 },    
 ]
 

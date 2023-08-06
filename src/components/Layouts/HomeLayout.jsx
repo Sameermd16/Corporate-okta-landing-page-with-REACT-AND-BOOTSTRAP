@@ -8,9 +8,7 @@ export default function HomeLayout() {
     return (
         <>
             <Navbar />
-            <main>
-                <Outlet />
-            </main>
+            <Outlet /> 
             <Footer />
         </>
     )
