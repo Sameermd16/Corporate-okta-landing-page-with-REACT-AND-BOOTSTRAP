@@ -11,10 +11,10 @@ export default function Main() {
             <div className='dropdown'>
                 <button className='dropdown-toggle btn btn-outline-primary' data-bs-toggle='dropdown'>sort</button>
                 <ul className='dropdown-menu sort p-1'>
-                    <li className='dropdown-item text-primary'>Sections</li>
-                    <li className='dropdown-item text-primary'>Name ascending</li>
-                    <li className='dropdown-item text-primary'>Name descending</li>
-                    <li className='dropdown-item text-primary'>Last added</li>
+                    <li className='dropdown-item text-primary fw-light'>Sections</li>
+                    <li className='dropdown-item text-primary fw-light'>Name ascending</li>
+                    <li className='dropdown-item text-primary fw-light'>Name descending</li>
+                    <li className='dropdown-item text-primary fw-light'>Last added</li>
                 </ul>
             </div>
         </div>
@@ -36,7 +36,7 @@ export default function Main() {
         </div>
     {/* add setion => modal */}
         <div class="modal fade" id="addSection" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <p class="modal-title fs-5" id="exampleModalLabel">Create section</p>

@@ -21,9 +21,12 @@
   height: 100vh;
   list-style-type: none;
 }
-.menu > ul > li {
-  padding: 15px;
-}
+/* .menu > ul > li {
+  padding: 10px 0;
+} */
+/* .close-icon {
+  margin-right: 10px;
+} */
 .menu > ul > li > a{
   text-decoration: none;
   color: white;

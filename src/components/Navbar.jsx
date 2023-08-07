@@ -21,11 +21,11 @@ export default function Navbar() {
             <button className='dropdown-toggle btn' data-bs-toggle='dropdown'>Sameer</button>
             <ul className='dropdown-menu'>
               <p style={{width: '100%'}} className='px-3'>Md Sameer <br />sameerthemc@gmail.com</p>
-              <li className='dropdown-item text-primary'>Admin</li>
-              <li className='dropdown-item text-primary'>Settings</li>
-              <li className='dropdown-item text-primary'>Preferences</li>
-              <li className='dropdown-item text-primary'>Recent Activity</li>
-              <li className='dropdown-item text-primary'>Sign Out</li>
+              <li className='dropdown-item text-primary fw-light'>Admin</li>
+              <li className='dropdown-item text-primary fw-light'>Settings</li>
+              <li className='dropdown-item text-primary fw-light'>Preferences</li>
+              <li className='dropdown-item text-primary fw-light'>Recent Activity</li>
+              <li className='dropdown-item text-primary fw-light'>Sign Out</li>
             </ul>
           </div>
         </div>
@@ -33,20 +33,20 @@ export default function Navbar() {
         <div className="navbar" style={{display: "flex", justifyContent: "space-between"}}>
           <div  className={showMenu ? "menu active" : "menu"}>
             <ul>
-              <li className='text-end close-icon-li'>
-              <AiOutlineClose className='close-icon' onClick={menuToggle} style={{cursor: 'pointer'}} color='white' size='25px' />
+              <li className='text-end close-icon-li py-2'>
+              <AiOutlineClose className='close-icon me-2' onClick={menuToggle} style={{cursor: 'pointer'}} color='white' size='25px' />
               </li>
-              <li>
+              <li className='py-2'>
                 <Link className='d-flex align-items-center gap-2'> <AiFillHome /> My Apps</Link>
               </li>
-              <li>
+              <li className='py-2'>
                 <Link className='ms-4'>Work</Link>
               </li>
-              <li>
+              <li className='py-2'>
                 <Link className='ms-3 d-flex align-items-center gap-1 btn' type='button' data-bs-toggle='modal' data-bs-target='#addSection'>Add section <IoIosAddCircleOutline /></Link>
               </li>
               <li>
-                <Link className='d-flex align-items-center gap-3'> <IoIosNotifications si /> Settings</Link>
+                <Link className='d-flex align-items-center gap-3'> <IoIosNotifications/> Notifications</Link>
               </li>
             </ul>
           </div>
