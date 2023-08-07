@@ -4,7 +4,7 @@ import './App.css'
 import Main from "./components/Main"
 import HomeLayout from './components/Layouts/HomeLayout'
 import "bootstrap/dist/css/bootstrap.min.css"
-import 'bootstrap/dist/js/bootstrap.bundle.min'
+import 'bootstrap/dist/js/bootstrap.bundle'
 
 
 function App() {

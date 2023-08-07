@@ -43,10 +43,10 @@ export default function Navbar() {
                 <Link className='ms-4'>Work</Link>
               </li>
               <li>
-                <Link className='ms-4 d-flex align-items-center gap-1'>Add section <IoIosAddCircleOutline /></Link>
+                <Link className='ms-3 d-flex align-items-center gap-1 btn' type='button' data-bs-toggle='modal' data-bs-target='#addSection'>Add section <IoIosAddCircleOutline /></Link>
               </li>
               <li>
-                <Link className='d-flex align-items-center gap-2'> <IoIosNotifications si /> Settings</Link>
+                <Link className='d-flex align-items-center gap-3'> <IoIosNotifications si /> Settings</Link>
               </li>
             </ul>
           </div>
