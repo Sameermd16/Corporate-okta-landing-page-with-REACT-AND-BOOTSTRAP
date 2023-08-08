@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import React from 'react'
 import './App.css'
-import Main from "./components/Main"
+import Main from "./components/pages/Main"
 import HomeLayout from './components/Layouts/HomeLayout'
 import "bootstrap/dist/css/bootstrap.min.css"
 import 'bootstrap/dist/js/bootstrap.bundle'

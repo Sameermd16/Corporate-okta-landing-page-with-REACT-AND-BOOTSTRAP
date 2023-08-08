@@ -1,4 +1,4 @@
-import { appTiles } from "../data/data"
+import { appTiles } from "../../data/data"
 import { Link } from 'react-router-dom'
 
 export default function Main() {
